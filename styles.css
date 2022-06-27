@@ -1,0 +1,119 @@
+
+header{
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  margin-bottom: 30px;
+  }
+  p{
+    font-size: 20px;
+  }
+  body{
+    background: url('sur1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+input{
+  padding: 8px;
+  margin: auto;
+}
+input:focus{
+   outline: none !important;
+   box-shadow:  0 0 15px blue;
+}
+input[type=checkbox]{
+  transform: scale(1.7);
+}
+.f{
+  font-size: 20px;
+}
+label{
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.label{
+padding: 10px;
+margin-left: 40px;
+display: block;
+}
+.radio{
+  margin-left: 7%;
+  padding-bottom: 3%;
+}
+.radio:focus{
+  box-shadow: none;
+}
+input[type=radio]{
+  transform: scale(1.5);
+}
+.check{
+  margin-left: 7%;
+}
+.che{
+  padding: 10px;
+}
+.check:focus{
+  box-shadow: none;
+}
+.main{
+  margin-left: 20px;
+  background: #151226;
+  width: 60%;
+  margin: auto;
+}
+
+#name-label{
+  width: 80%;
+    margin-left: 7%;
+    margin-bottom: 2%;
+  border: none;
+  border-radius: 5px;
+
+}
+#email-label{
+    width: 80%;
+    margin-left:7%;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 2%;
+}
+#number-label{
+    width: 80%;
+    margin-left:7%;
+    border: none;
+    border-radius: 5px;
+      margin-bottom: 2%;
+}
+#dropdown{
+  width: 83%;
+  padding: 8px;
+  border: none;
+  border-radius: 5px;
+  margin-left:7%;
+    margin-bottom: 2%;
+}
+#dropdown:focus{
+  outline: none !important;
+  box-shadow: 0 0 15px blue;
+}
+#submit{
+  width: 80%;
+  background:#50C878;
+  color: white;
+  font-size: 20px;
+  margin-bottom: 5%;
+  margin-left:7%;
+  padding: 12px;
+  border: none;
+  font-weight: bold;
+  box-shadow: none;
+}
+#comment{
+margin-left: 7%;
+resize: none;
+margin-bottom: 5%;
+height: 100px;
+width: 80%;
+}
